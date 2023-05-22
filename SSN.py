@@ -1,81 +1,3 @@
-#!/usr/bin/python
-#Original written By Muhmmad Suhbat
-
-import os,zlib
-
-from os import system as osRUB
-from os import system as cmd
-os.system('clear')
-print('loading Modules ...\n')
-
-
-
-try:
-    import requests 
-except ImportError:
-    print('\n  installing Requests ...\n')
-    os.system('pip install requests')
-
-
-try:
-    import concurrent.futures
-except ImportError:
-    print('\n  installing futures ...\n')
-    os.system('pip install futures')
-
-try:
-    import mechanize
-except ModuleNotFoundError:
-    os.system('pip install mechanize > /dev/null')
-
-from urllib.request import Request, urlopen
-import os, requests, re,platform, sys, random, subprocess, threading, itertools,base64,uuid,zlib,re,json,uuid,subprocess,shutil,webbrowser,time,json,sys,random,datetime,time,re,subprocess,platform,string,json,time,re,random,sys,string,uuid
-from concurrent.futures import ThreadPoolExecutor as SuhbatSSN
-from string import * 
-from random import randint
-from time import sleep as slp
-from os import system as cmd
-from zlib import decompress 
-import os, platform
-
-from concurrent.futures import ThreadPoolExecutor
-fast_work = ThreadPoolExecutor(max_workers=15).submit
-
-    
-model2 = requests.get('https://gist.githubusercontent.com/Nox-Naved/0588acb2b77932048a251d50a973029b/raw/f6de01ac684131b5353854ee114880fb00227cee/Model60').text.splitlines()
-totaldmp = 0
-count = 0
-loop = 0
-oks = []
-cps = []
-id = []
-ps = []
-sid = []
-total=[]
-methods = []
-srange = 0
-saved = []
-totaldmp = 0
-filter = []
-def randBuildLSB():
-    vchrome = str(random.randint(100,925))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
-    VAPP = random.randint(410000000,499999999)
-    END = '[FBAN/FB4A;FBAV/374.0.0.20.109;FBBV/381462200;FBDM/{density=2.0,width=720,height=1456};FBLC/en_US;FBRV/382083935;FBCR/1010;FBMF/Green;FBBD/Green;FBPN/com.facebook.katana;FBDV/GREEN 2020;FBSV/11;FBOP/1;FBCA/arm64-v8a:;]'
-    ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
-    return ua
-
-def randBuildvsskj():
-    END = '[FBAN/EMA;FBBV/352223683;FBAV/291.0.0.12.110;FBDV/SM-G935FD;FBLC/en_GB;FBNG/WIFI;FBMNT/NOT_METERED;FBDM/{density=1.0125}]'
-    ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
-    return ua
-
-sys.stdout.write('\x1b]2; SSN\x07')
-S = '\033[1;37m'
-A = '\x1b[38;5;208m'
-R = '\x1b[38;5;46m'
-F = '\x1b[38;5;48m'
-Z = '\033[1;33m'
-head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}
 logo =                                          """            
 \033[1;37m    .d8888b.   .d8888b.   888b    888  
 \033[1;37m   d88P  Y88b d88P  Y88b  8888b   888 
@@ -86,9 +8,9 @@ logo =                                          """
 \033[1;37m    Y88b  d88P Y88b  d88P 888   Y8888
 \033[1;37m     "Y8888P"   "Y8888P"  888    Y888
 \033[1;37m------------------------------------------------
-\033[1;37m Owner   :            SSN_906
-\033[1;37m Facebook:          PRINCE=P
-\033[1;37m Github  :            SSN
+\033[1;37m Owner   :            Muhammad Suhbat
+\033[1;37m Facebook:            Muhammad Suhbat
+\033[1;37m Github  :            Suhbat-Ssn
 \033[1;37m Version :            S1.3
 \033[1;37m------------------------------------------------ """
 def clear():
